@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT-SITE</title>
+</head>
+
+<body>
+     <link rel="stylesheet" href="assets/css/style.css">
+    <div class="centralizado">
+    <h1>COMANDOS GIT</h1>
+    <img src="assets/images/git.jpg" width="600" height="300">
+      </div>
+    <h2>Comandos do gitbash aprendidos na aula</h2>
+    <h2> GIT INIT</h2>
+    <ul>
+        <li>O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente
+            e não versionado em um repositório do Git ou inicializar um novo repositório vazio.</li>
+    </ul>
+    <h2>GIT CONFIG</h2>
+    <ul>
+        <li>O comando git config é a função conveniente usada para definir valores de configuração do Git em projetos de nível global ou local.</li>
+        <li>EX: git config user.email; git config user.name; git config --global user.name; git config --local user.email;</li>
+    </ul>
+    <h2>GIT STATUS</h2>
+    <ul>
+        <li> exibe as condições do diretório de trabalho e da área de staging.
+         Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.</li>
+    </ul>
+    <h2>GIT ADD</h2>
+    <ul>
+        <li>adiciona uma alteração no diretório ativo à área de staging. 
+            Ele diz ao Git que você quer incluir atualizações a um arquivo específico no próximo commit.</li>
+        <li>Git add . :Adiciona todos os arquivos/diretórios</li>
+    </ul>
+    <h2>GIT COMMIT</h2>
+    <ul>
+        <li> O comando git commit é uma das funções principais do Git. 
+            Antes de usar o comando git add é necessário selecionar as alterações que vão ser preparadas para o próximo commit.</li>
+        <li>git commit -m:  adicionar uma mensagem para a execução de um commit. </li>
+    </ul>
+    <h2>GIT LOG</h2>
+    <ul>
+        <li>Você pode visualizar o que vem sendo feito em uma determinada branch ou avaliar as alterações de um arquivo em especial. 
+            Isso pode ser útil para você entender como alguma parte do código vem sendo evoluída, ou pode ajudar a avaliar os commits locais antes de dar git push.</li>
+    </ul>
+    <h2>GIT REMOTE</h2>
+    <ul>
+        <li> Uma interface para gerenciar uma lista de entradas remotas que são armazenadas no arquivo</li>
+        <li>Exibir os repositórios remotos</li>
+        <li>git remote -v:Exibir os repositórios remotos</li>
+        <li>git remote add origin:Vincular repositório local com um repositório remoto</li>
+  </ul>
+  <h2>GIT PUSH</h2>
+   <ul>
+       <li>Esse comando serve para subir suas modificações
+            para um repositório remoto conectado anteriormente com git remote.</li>
+        <li>git push -u origin master: O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.</li>
+   </ul>
+   <h2>BRANCH</h2>
+   <ul>
+       <li> Permite criar, listar, renomear e excluir ramificações. 
+           Ele não permite alternar entre as ramificações ou reunir um histórico bifurcado de novo.</li>
+   </ul>
+
+
+</body>
+
+</html>

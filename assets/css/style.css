@@ -1,0 +1,23 @@
+body{
+    background-color:#1b235e;
+     font-family:cursive;
+   }
+   
+    
+   
+   
+    h1{
+      color: whitesmoke
+    }
+   
+    h2{
+        color: whitesmoke
+    }
+    li{
+        color: whitesmoke;
+    }
+   
+    
+   .centralizado{
+       text-align: center;
+   }
